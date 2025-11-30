@@ -1,0 +1,7 @@
+{% extends 'tareas/base.html' %}
+{% block title %}Detalle de Tarea{% endblock %}
+{% block content %}
+<h2>{{ tarea.titulo }}</h2>
+<p>{{ tarea.descripcion }}</p>
+<a href="{% url 'lista_tareas' %}" class="btn btn-secondary">Volver</a>
+{% endblock %}

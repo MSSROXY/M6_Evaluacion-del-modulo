@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "titulo": "Aprender Django",
+        "descripcion": "Repasar vistas, URLs y plantillas",
+        "usuario": "roxysolano"
+    },
+    {
+        "id": 2,
+        "titulo": "Practicar Python",
+        "descripcion": "Resolver ejercicios de listas y diccionarios",
+        "usuario": "roxysolano"
+    }
+]

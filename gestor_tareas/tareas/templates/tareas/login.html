@@ -1,0 +1,11 @@
+{% extends 'tareas/base.html' %}
+{% block title %}Iniciar Sesión{% endblock %}
+{% block content %}
+<h2>Iniciar Sesión</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button class="btn btn-primary">Iniciar Sesión</button>
+</form>
+<a href="{% url 'registro_usuario' %}">Registrarse</a>
+{% endblock %}
